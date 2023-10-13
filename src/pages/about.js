@@ -59,9 +59,10 @@ export default function About() {
               <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75">
                 BIOGRAPHY
               </h2>
-              <p className="font-medium ">
-                Hi, I&apos;m <strong>Nikhil Chowdary</strong>, I'm a final year B.Tech student with a strong passion for software engineering and computer science. I'm dedicated to finding innovative solutions that make a significant impact&apos; on society.
-              </p>
+              <p className="font-medium">
+  Hi, I&apos;m <strong>Nikhil Chowdary</strong>, I&apos;m a final year B.Tech student with a strong passion for software engineering and computer science. I&apos;m dedicated to finding innovative solutions that make a significant impact&apos; on society.
+</p>
+
               <p className="my-4 font-medium">
                 I believe that design is about more than just making things look
                 pretty – it&apos;s about solving problems and creating
