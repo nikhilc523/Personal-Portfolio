@@ -53,7 +53,7 @@ export default function Home() {
               />
                            
               <p className="my-4 text-base font-medium md:text-sm sm:!text-xs">
-              As a skilled full-stack developer, I am dedicated to turning ideas into innovative web applications. Explore my latest projects and articles, showcasing my expertise in React.js and web development.
+              An enthusiastic newcomer to the world of software development, I'm on a mission to turn my passion for coding into innovative digital solutions, constantly seeking opportunities to learn and grow.
               </p>
               <div className="mt-2 flex items-center self-start lg:self-center">
                 <Link
