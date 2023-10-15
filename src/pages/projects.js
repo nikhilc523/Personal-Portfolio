@@ -163,11 +163,10 @@ export default function Projects() {
   return (
     <>
       <Head>
-        <title>Modern Portfolio Built with Nextjs | Projects Page</title>
+        <title>Nikhil Chowdary Portfolio| Projects Page</title>
         <meta
           name="description"
-          content="Discover the latest webapp projects created by CodeBucks, a Next.js developer with 
-        expertise in React.js and full-stack development. Browse software engineering articles and tutorials for tips on creating your own portfolio."
+          content="Discover the latest webapp projects created by Nikhil"
         />
       </Head>
 
@@ -206,7 +205,7 @@ export default function Projects() {
                 type="Website"
                 title="Krypto-Website"
                 img={proj3}
-                link=""
+                link="https://my-personal-portfolio-eqcak4ty3-nikhilc523s-projects.vercel.app"
                 github="https://my-personal-portfolio-eqcak4ty3-nikhilc523s-projects.vercel.app"
               />
             </div>
