@@ -40,14 +40,14 @@ export default function Home() {
             </div>
             <div className="flex w-1/2 flex-col items-center self-center lg:w-full lg:text-center">
               <AnimatedText
-                text="Hi peeps!🖐️"
+                text="Hi peeps!&apos;🖐️"
                 className="!text-left !text-6xl xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
               />
               {
 
               }
               <AnimatedText
-                text="I'm Nikhil Chowdary✌️"
+                text="I'm Nikhil Chowdary&apos;✌️"
                 className="!text-left !text-6xl xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
               />
                            
