@@ -197,8 +197,8 @@ export default function Projects() {
                 type="Web Application"
                 title="Pixelate Me!"
                 img={proj2}
-                link="https://devdreaming.com/videos/create-nft-collection-website-reactjs"
-                github="https://github.com/codebucks27/The-Weirdos-NFT-Website-Starter-Code"
+                link="https://my-personal-portfolio-eqcak4ty3-nikhilc523s-projects.vercel.app"
+                github="https://my-personal-portfolio-eqcak4ty3-nikhilc523s-projects.vercel.app"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -206,8 +206,8 @@ export default function Projects() {
                 type="Website"
                 title="Krypto-Website"
                 img={proj3}
-                link="https://devdreaming.com/videos/build-stunning-fashion-studio-website-with-reactJS-locomotive-scroll-gsap"
-                github="https://github.com/codebucks27/wibe-studio"
+                link=""
+                github="https://my-personal-portfolio-eqcak4ty3-nikhilc523s-projects.vercel.app"
               />
             </div>
             <div className="col-span-12">
@@ -216,8 +216,8 @@ export default function Projects() {
                 title="PDFChatter"
                 summary="A professional portfolio website using React JS, Framer-motion, and Styled-components. It has smooth page transitions, cool background effects, unique design and it is mobile responsive."
                 img={proj4}
-                link="https://devdreaming.com/videos/build-stunning-portfolio-website-react-js-framer-motion"
-                github="https://github.com/codebucks27/react-portfolio-final"
+                link="https://pdf-chatter-six.vercel.app"
+                github="https://github.com/nikhilc523/PDFChatter"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -231,11 +231,11 @@ export default function Projects() {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                type="Blog Website"
+                type="Website"
                 img={proj6}
-                title="DevDreaming"
-                link="https://devdreaming.com"
-                github="https://github.com/codebucks27"
+                title="Student Social Responsibility"
+                link="https://amrita-ssr-website-6ombiqze6-iampranavdhar.vercel.app/"
+                github="https://github.com/nikhilc523/Voice-Assistant"
               />
             </div>
           </div>

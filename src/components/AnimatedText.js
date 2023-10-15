@@ -33,24 +33,24 @@ const AnimatedText = ({ text, className = "" }) => {
     <div className="py-2 w-full mx-auto flex flex-col items-center justify-center  text-center  
     overflow-hidden sm:py-0">
       <motion.h1
-        className={`inline-block text-dark dark:text-light
-      text-8xl font-bold w-full capitalize  ${className} xl:text-6xl`}
-        variants={quote}
-        initial="hidden"
-        animate="visible"
+  className={`inline-block text-dark dark:text-light text-8xl font-bold w-full capitalize overflow-hidden ${className} xl:text-6xl`}
+  variants={quote}
+  initial="hidden"
+  animate="visible"
+>
+  {text.split(" ").map((char, index) => {
+    return (
+      <motion.span
+        className="inline-block"
+        key={char + "-" + index}
+        variants={singleWord}
       >
-        {text.split(" ").map((char, index) => {
-          return (
-            <motion.span
-              className="inline-block"
-              key={char + "-" + index}
-              variants={singleWord}
-            >
-              {char}&nbsp;
-            </motion.span>
-          );
-        })}
-      </motion.h1>
+        {char}&nbsp;
+      </motion.span>
+    );
+  })}
+</motion.h1>
+
     </div>
   );
 };

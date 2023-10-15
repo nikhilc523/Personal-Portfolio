@@ -61,14 +61,6 @@ const Experience = () => {
             style={{ scaleY: scrollYProgress }}
           />
           <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
-            <Details
-              position="Software Engineer"
-              company="Google"
-              companyLink="https://google.com"
-              time="2022-Present"
-              address="Mountain View, CA"
-              work="Worked on a team responsible for developing new features for Google's search engine, including improving the accuracy and relevance of search results and developing new tools for data analysis and visualization."
-            />
 
             <Details
               position="Full Stack Developer Intern"
@@ -81,16 +73,22 @@ const Experience = () => {
               content, including designing and implementing a new user interface
               and developing the backend infrastructure to support the feature."
             />
+             <Details
+              position="Chegg Subject Matter Expert"
+              company="Chegg"
+              companyLink="https://chegg.com"
+              time="2022-Present"
+              address="Remote"
+              work="I try to answer questions posted by students on the Q&A board while maintaining a high level of academic integrity." />
+
 
             <Details
               position="Class Representative"
               company="Amrita"
-              companyLink="https://mit.edu"
+              companyLink="https://amrita.edu"
               time="2021-Present"
-              address="Massachusetts Ave, Cambridge, MA."
-              work="Assisted in teaching a course on computer programming, held office
-              hours to help students with assignments, and graded exams and
-              assignments."
+              address="Amritapuri,Kollam,Kerala"
+              work="Served as a dedicated Class Representative, effectively bridging communication between students and faculty, and advocating for the needs and concerns of my peers."
             />
           </ul>
         </div>
