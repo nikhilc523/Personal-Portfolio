@@ -80,16 +80,6 @@ const Experience = () => {
               time="2022-Present"
               address="Remote"
               work="I try to answer questions posted by students on the Q&A board while maintaining a high level of academic integrity." />
-
-
-            <Details
-              position="Class Representative"
-              company="Amrita"
-              companyLink="https://amrita.edu"
-              time="2021-Present"
-              address="Amritapuri,Kollam,Kerala"
-              work="Served as a dedicated Class Representative, effectively bridging communication between students and faculty, and advocating for the needs and concerns of my peers."
-            />
           </ul>
         </div>
         </div>
