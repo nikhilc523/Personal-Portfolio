@@ -5,12 +5,12 @@ import { motion } from "framer-motion";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import proj1 from "../../public/images/projects/crypto-screener-cover-image.jpg";
-import proj2 from "../../public/images/projects/nft-collection-website-cover-image.jpg";
-import proj3 from "../../public/images/projects/fashion-studio-website.jpg";
-import proj4 from "../../public/images/projects/portfolio-cover-image.jpg";
-import proj5 from "../../public/images/projects/agency-website-cover-image.jpg";
-import proj6 from "../../public/images/projects/devdreaming.jpg";
+import proj1 from "../../public/images/projects/MovieMagnet.jpg";
+import proj2 from "../../public/images/projects/PixelateMe.jpg";
+import proj3 from "../../public/images/projects/OpenCoin.jpg";
+import proj4 from "../../public/images/projects/pdfchatter.jpg";
+import proj5 from "../../public/images/projects/Event Management System.jpg";
+import proj6 from "../../public/images/projects/SSR.jpg";
 import TransitionEffect from "@/components/TransitionEffect";
 
 const FramerImage = motion(Image);
@@ -180,15 +180,14 @@ export default function Projects() {
             className="mb-16 !text-8xl !leading-tight lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"
           />
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
-            <div className="col-span-12">
+          <div className="col-span-12">
               <FeaturedProject
-                type="Featured Project"
-                title="Movie Magnet"
-                summary="Welcome to MovieMagent, your ultimate destination for discovering, exploring, and staying up-to-date with the world of movies!
-                "
-                img={proj1}
-                link="https://github.com/nikhilc523/MovieMagnet"
-                github="https://github.com/nikhilc523/MovieMagnet"
+                type="Web Application"
+                title="PDFChatter"
+                summary="A professional portfolio website using React JS, Framer-motion, and Styled-components. It has smooth page transitions, cool background effects, unique design and it is mobile responsive."
+                img={proj4}
+                link="https://pdf-chatter-six.vercel.app"
+                github="https://github.com/nikhilc523/PDFChatter"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -203,7 +202,7 @@ export default function Projects() {
             <div className="col-span-6 sm:col-span-12">
               <Project
                 type="Website"
-                title="Krypto-Website"
+                title="OpenCoin"
                 img={proj3}
                 link="https://my-personal-portfolio-eqcak4ty3-nikhilc523s-projects.vercel.app"
                 github="https://my-personal-portfolio-eqcak4ty3-nikhilc523s-projects.vercel.app"
@@ -211,12 +210,13 @@ export default function Projects() {
             </div>
             <div className="col-span-12">
               <FeaturedProject
-                type="Web Application"
-                title="PDFChatter"
-                summary="A professional portfolio website using React JS, Framer-motion, and Styled-components. It has smooth page transitions, cool background effects, unique design and it is mobile responsive."
-                img={proj4}
-                link="https://pdf-chatter-six.vercel.app"
-                github="https://github.com/nikhilc523/PDFChatter"
+                type="Featured Project"
+                title="Movie Magnet"
+                summary="Welcome to MovieMagent, your ultimate destination for discovering, exploring, and staying up-to-date with the world of movies!
+                "
+                img={proj1}
+                link="https://github.com/nikhilc523/MovieMagnet"
+                github="https://github.com/nikhilc523/MovieMagnet"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
