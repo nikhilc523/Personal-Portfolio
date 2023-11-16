@@ -47,7 +47,9 @@ const Education = () => {
             type="Bachelor of Technology in Computer Science"
             time="2020-Present"
             place="Amrita Vishwa Vidyapeetham"
-            info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial Intelligence."
+            info="Relevant courses included Advanced Programming, Design Analysis and Algorithms, Data Structures and Algorithms, Object Oriented Paradigm, Operating Systems, Database Management System Reasoning, Theory of Computation, Principles of Programming Languages."
+
+
           />
 
           <Details

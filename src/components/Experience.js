@@ -65,21 +65,18 @@ const Experience = () => {
             <Details
               position="Full Stack Developer Intern"
               company="EVE HealthCare PVT LTD"
-              companyLink="https://facebook.com"
+              companyLink="https://evehealthcarecenter.com"
               time="June 2023 - Sept 2023"
               address="Remote"
-              work="Worked on a team responsible for developing a new mobile app
-              feature that allowed users to create and share short-form video
-              content, including designing and implementing a new user interface
-              and developing the backend infrastructure to support the feature."
+              work=" Created responsive web designs with HTML and CSS and built a strong backend with Django for EVE Healthcare’s platform. Added interactive features with JavaScript and used WebSocket for live updates. For smooth data flow, I integrated RESTful APIs, boosting the platform's performance."
             />
              <Details
-              position="Chegg Subject Matter Expert"
-              company="Chegg"
+              position="Tag Lead"
+              company="AI@amrita"
               companyLink="https://chegg.com"
-              time="2022-Present"
-              address="Remote"
-              work="I try to answer questions posted by students on the Q&A board while maintaining a high level of academic integrity." />
+              time="Sep 2021 - Jan 2023"
+              address="Amrita Vishwa Vidyapeetham"
+              work="Machine Learning . Research Skills . Analytical skills . Data Analysis" />
           </ul>
         </div>
         </div>

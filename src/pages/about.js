@@ -1,7 +1,7 @@
 import Layout from "@/components/Layout";
 import Head from "next/head";
 import Image from "next/image";
-import profile from "../../public/images/profile/developer-pic-2.jpg";
+import profile from "../../public/images/profile/profile.png";
 import { useInView, useMotionValue, useSpring } from "framer-motion";
 import { useEffect, useRef } from "react";
 import Skills from "@/components/Skills";
@@ -60,21 +60,17 @@ export default function About() {
                 BIOGRAPHY
               </h2>
               <p className="font-medium">
-  Hi, I&apos;m <strong>Nikhil Chowdary</strong>, I&apos;m a final year B.Tech student with a strong passion for software engineering and computer science. I&apos;m dedicated to finding innovative solutions that make a significant impact&apos; on society.
+  Hi, I&apos;m <strong>Nikhil Chowdary</strong>, I&apos;m a final year B.Tech student with a passion deeply rooted in intersection of  software engineering and AI and its profound capacity to revolutionize healthcare. My academic journey, underscored by personal narratives, has been a testament to the transformative power of technology — from AI in early disease detection to software solutions that advance patient care.
 </p>
 
               <p className="my-4 font-medium">
-                I believe that design is about more than just making things look
-                pretty – it&apos;s about solving problems and creating
-                intuitive, enjoyable experiences for users.
+              My hands-on experience, ranging from designing intuitive web interfaces to innovating with real-time communication technologies, reflects my commitment to creating impactful digital health platforms. My research pursuits, particularly in leveraging AI for critical health issues, have not only expanded my technical expertise but also underscored the importance of empathetic, user-centric solutions in technology.
               </p>
-              <p className="font-medium">
-                Whether I&apos;m working on a website, mobile app, or other
-                digital product, I bring my commitment to design excellence and
-                user-centered thinking to every project I work on. I look
-                forward to the opportunity to bring my skills and passion to
-                your next project.
+              <p className="my-4 font-medium">
+              I&apos;ve embraced every opportunity to learn and grow — from developing chatbots that assist in public health crises to pursuing advanced research that shapes the future of healthcare. With each project, I&apos;ve become more resolute in my belief that the intersection of software engineering and healthcare is where I can make a significant difference.
+
               </p>
+            
             </div>
             <div className="relative col-span-3 h-max rounded-2xl border-2 border-solid border-dark 
             bg-light p-8 dark:border-light dark:bg-dark
@@ -119,7 +115,7 @@ export default function About() {
 
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumberFramerMotion value={4} />+
+                  <AnimatedNumberFramerMotion value={1} />+
                 </span>
                 <h2 className="mb-4 text-xl font-medium capitalize text-dark/75 dark:text-light/75 
                 xl:text-center md:text-lg sm:text-base xs:text-sm">

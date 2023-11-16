@@ -55,6 +55,9 @@ const Skills = () => {
           <Skill name="React Native" x="0vw" y="-20vw" />
           <Skill name="Docker" x="-25vw" y="18vw" />
           <Skill name="MY SQL" x="28vw" y="18vw" />
+          <Skill name="Machine Learning" x="2vw" y="27vw" />
+          <Skill name="Deep Learning" x="0vw" y="-28vw" />
+          <Skill name="Type Script" x="32vw" y="-20vw" />
     </div></>
   );
 };

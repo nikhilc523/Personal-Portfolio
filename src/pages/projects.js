@@ -8,9 +8,11 @@ import Link from "next/link";
 import proj1 from "../../public/images/projects/MovieMagnet.jpg";
 import proj2 from "../../public/images/projects/PixelateMe.jpg";
 import proj3 from "../../public/images/projects/OpenCoin.jpg";
-import proj4 from "../../public/images/projects/pdfchatter.jpg";
+import proj4 from "../../public/images/projects/PDFChatter.png";
 import proj5 from "../../public/images/projects/Event Management System.jpg";
 import proj6 from "../../public/images/projects/SSR.jpg";
+import proj7 from "../../public/images/projects/ODD.png";
+import proj8 from "../../public/images/projects/PandemicPal.jpg";
 import TransitionEffect from "@/components/TransitionEffect";
 
 const FramerImage = motion(Image);
@@ -180,23 +182,57 @@ export default function Projects() {
             className="mb-16 !text-8xl !leading-tight lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"
           />
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
+          <div className="col-span-6 sm:col-span-12">
+              <Project
+                type="Chatbot"
+                img={proj8}
+                title="Pandemic Pal  🤖
+                WhatsApp ChatBot"
+                link="https://github.com/nikhilc523/PandemicPal"
+                github="https://github.com/nikhilc523/PandemicPal"
+              />
+              
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                type="Website"
+                img={proj6}
+                title="Student Social Responsibility"
+                link="https://ssramritapuri.vercel.app"
+                github="https://github.com/nikhilc523/ssrBackend"
+              />
+              
+            </div>
+          <div className="col-span-12">
+              <FeaturedProject
+                type="Web Application"
+                title="Onsite-Disease-Detection"
+                summary="Onsite Disease Detection (ODD) is a web app that helps users quickly assess serious health risks, especially when doctors aren't available."
+          
+                img={proj7}
+                link="https://github.com/nikhilc523/Onsite-Disease-Detection"
+                github="https://github.com/nikhilc523/Onsite-Disease-Detection"
+              />
+            </div>
           <div className="col-span-12">
               <FeaturedProject
                 type="Web Application"
                 title="PDFChatter"
-                summary="A professional portfolio website using React JS, Framer-motion, and Styled-components. It has smooth page transitions, cool background effects, unique design and it is mobile responsive."
+                summary="PDF Chatter-Full stack AI Saas based application | TypeScript, Next Js, PineconeDB, PostgreSQL, Tailwind CSS, AWS SDK"
+          
                 img={proj4}
                 link="https://pdf-chatter-six.vercel.app"
                 github="https://github.com/nikhilc523/PDFChatter"
               />
             </div>
+            
             <div className="col-span-6 sm:col-span-12">
               <Project
                 type="Web Application"
                 title="Pixelate Me!"
                 img={proj2}
-                link="https://my-personal-portfolio-eqcak4ty3-nikhilc523s-projects.vercel.app"
-                github="https://my-personal-portfolio-eqcak4ty3-nikhilc523s-projects.vercel.app"
+                link="https://github.com/nikhilc523/PixelateMe-"
+                github="https://github.com/nikhilc523/PixelateMe-"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -204,8 +240,8 @@ export default function Projects() {
                 type="Website"
                 title="OpenCoin"
                 img={proj3}
-                link="https://my-personal-portfolio-eqcak4ty3-nikhilc523s-projects.vercel.app"
-                github="https://my-personal-portfolio-eqcak4ty3-nikhilc523s-projects.vercel.app"
+                link="https://github.com/nikhilc523/OpenCoin"
+                github="https://github.com/nikhilc523/OpenCoin"
               />
             </div>
             <div className="col-span-12">
@@ -228,15 +264,8 @@ export default function Projects() {
                 github="https://github.com/nikhilc523/Event_Management_System"
               />
             </div>
-            <div className="col-span-6 sm:col-span-12">
-              <Project
-                type="Website"
-                img={proj6}
-                title="Student Social Responsibility"
-                link="https://amrita-ssr-website-6ombiqze6-iampranavdhar.vercel.app/"
-                github="https://github.com/nikhilc523/Voice-Assistant"
-              />
-            </div>
+            
+            
           </div>
         </Layout>
       </main>

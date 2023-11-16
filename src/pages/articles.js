@@ -169,7 +169,7 @@ export default function Articles() {
           <ul className="flex flex-col items-center relative">
             <Article
               title="A Method and a System for measuring Intra-site heterogenity in a tumour using Artificial Intelligence (Application No: 202241061682)"
-              img={blog3}
+              //img={blog3}
               date="August 29, 2022"
               link="https://ijsrem.com/download/analysis-using-a-model-based-approach-of-path-planning-for-multiple-uavs-in-the-context-of-surveying-building-damage-following-a-disaster/"
             />
@@ -182,19 +182,19 @@ export default function Articles() {
           <ul className="flex flex-col items-center relative">
             <Article
               title="Analysis using a Model-Based Approach of Path Planning for Multiple Uavs in the Context of Surveying Building Damage Following a Disaster"
-              img={blog3}
+              //img={blog3}
               date="September 14, 2023"
               link="https://ijsrem.com/download/analysis-using-a-model-based-approach-of-path-planning-for-multiple-uavs-in-the-context-of-surveying-building-damage-following-a-disaster/"
             />
             <Article
               title="General Deep Learning Model for Detecting Diabetic Retinopathy"
-              img={blog4}
+              //img={blog4}
               date="July 30, 2023"
               link="https://ijsrem.com/download/general-deep-learning-model-for-detecting-diabetic-retinopathy/"
             />
             <Article
               title="A Novel Approaches of Detecting Breast Cancer with Hybrid Models: Techniques and Challenges"
-              img={blog5}
+              //img={blog5}
               date="January 29, 2023"
               link="https://ijsrem.com/download/a-novel-approaches-of-detecting-breast-cancer-with-hybrid-models-techniques-and-challenges/"
             />
