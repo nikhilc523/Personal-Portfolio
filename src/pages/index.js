@@ -47,8 +47,7 @@ export default function Home() {
                 className="!text-left !text-6xl xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
               />
               <p className="my-4 text-base font-medium md:text-sm sm:!text-xs">
-              An enthusiastic newcomer to the world of software development, I&apos;m on a mission to turn my passion for coding into innovative digital solutions, constantly seeking opportunities to learn and grow.
-
+              Passionate about the convergence of software development and artificial intelligence, I am dedicated to exploring their potential in healthcare. My journey is marked by a continuous quest for learning and innovation in this dynamic field.
 
               </p>
               <div className="mt-2 flex items-center self-start lg:self-center">
